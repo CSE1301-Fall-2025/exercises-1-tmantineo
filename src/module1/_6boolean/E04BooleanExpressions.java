@@ -7,11 +7,17 @@ public class E04BooleanExpressions {
 
 		// Will these print true or false?
 		System.out.println( isRaining );
+		// true
 		System.out.println( !isRaining );
+		// false
 		System.out.println( hasMoney );
+		// false
 		System.out.println( !hasMoney );
+		// true
 		System.out.println( 5 == 7 );
+		// false
 		System.out.println( !(5 == 7) );
+		// true
 
 	}
 }
