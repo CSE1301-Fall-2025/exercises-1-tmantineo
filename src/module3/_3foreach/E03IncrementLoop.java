@@ -12,6 +12,10 @@ public class E03IncrementLoop {
 			val++;
 			System.out.println("New val: " + val);
 		}
+		for(int i=0; i < values.length; i++) {
+			int val = values[i];
+			values[i] = val;
+		}
 		// Print out array to see if they really changed
 		System.out.println("Array after the loop: ");
 		for (int v : values) {

@@ -11,7 +11,7 @@ public class E03ArrayAccess {
 	//at index 7?
 	public static void main(String[] args) {
 		// declare and create arrays
-		int[ ] highScores = new int[5];
+		int[ ] highScores = new int[6];
 		// Print initial highScore
 		System.out.println(highScores[0]);
 		// put values in highScore using an indexed variable
@@ -20,9 +20,10 @@ public class E03ArrayAccess {
 		highScores[2] = 98;
 		highScores[3] = 88;
 		highScores[4] = 68;
+		highScores[5] = 89;
 
 		// Print first highScore at index 0
-		System.out.println( highScores[0] );
+		System.out.println( highScores[2] );
 
 	}
 }
