@@ -9,10 +9,10 @@ public class E01VariableAssignment {
 		int y = 2;
 		System.out.println(x);
 		System.out.println(y);
-		x = y;
+		y = x;
 		System.out.println(x);
 		System.out.println(y);
-		y = 5;
+		x = 5;
 		System.out.println(x);
 		System.out.println(y);
 	}

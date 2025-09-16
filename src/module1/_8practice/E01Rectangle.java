@@ -5,6 +5,10 @@ public class E01Rectangle {
 	//having width 7 and height 9. Add another statement to calculate 
 	//and print the area of the rectangle on a separate line.
     public static void main(String[] args) {
-
+	int width, height;
+	width = 7;
+	height = 9;
+	int rectanglePerimeter = width * height;
+	System.out.println("The perimeter of a 7 by 9 rectangle is "+ rectanglePerimeter);
     }
 }

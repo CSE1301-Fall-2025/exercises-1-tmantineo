@@ -8,6 +8,9 @@ public class E03SalaryExample {
 		int weeklySalary = 500;
 		int numWeeks = 6;
 		int totalPay;
+		totalPay = (weeklySalary * numWeeks);
+
+		System.out.print("The total pay is " + totalPay);
 
 	}
 }

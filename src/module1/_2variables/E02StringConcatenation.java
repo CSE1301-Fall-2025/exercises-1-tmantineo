@@ -4,8 +4,7 @@ public class E02StringConcatenation {
 	//Exercise 2: Run the code to see how Strings can
 	//be concatenated with variables
 	public static void main(String[] args) {
-		int score;
-		score = 0;
+		int score =0;
 		System.out.println("The score is " + score);
 
 		double price = 23.25;
@@ -13,6 +12,7 @@ public class E02StringConcatenation {
 
 		boolean won = false;
 		System.out.println("Won? " + won);
+		
 		won = true;
 		System.out.println("Won? " + won);
 
